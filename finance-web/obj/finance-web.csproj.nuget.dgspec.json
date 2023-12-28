@@ -4,14 +4,14 @@
     "/home/matheus/Área de trabalho/asp-dot-net/finance-web/finance-web.csproj": {}
   },
   "projects": {
-    "/home/matheus/Área de trabalho/asp-dot-net/finance-web/finance-web.csproj": {
+    "/home/matheus/Área de trabalho/asp-dot-net/finance-web-domain/finance-web-domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/matheus/Área de trabalho/asp-dot-net/finance-web/finance-web.csproj",
-        "projectName": "finance-web",
-        "projectPath": "/home/matheus/Área de trabalho/asp-dot-net/finance-web/finance-web.csproj",
+        "projectUniqueName": "/home/matheus/Área de trabalho/asp-dot-net/finance-web-domain/finance-web-domain.csproj",
+        "projectName": "finance-web-domain",
+        "projectPath": "/home/matheus/Área de trabalho/asp-dot-net/finance-web-domain/finance-web-domain.csproj",
         "packagesPath": "/home/matheus/.nuget/packages/",
-        "outputPath": "/home/matheus/Área de trabalho/asp-dot-net/finance-web/obj/",
+        "outputPath": "/home/matheus/Área de trabalho/asp-dot-net/finance-web-domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/matheus/.nuget/NuGet/NuGet.Config"
@@ -37,6 +37,202 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/matheus/.dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/matheus/Área de trabalho/asp-dot-net/finance-web-infra/finance-web-infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/matheus/Área de trabalho/asp-dot-net/finance-web-infra/finance-web-infra.csproj",
+        "projectName": "finance-web-infra",
+        "projectPath": "/home/matheus/Área de trabalho/asp-dot-net/finance-web-infra/finance-web-infra.csproj",
+        "packagesPath": "/home/matheus/.nuget/packages/",
+        "outputPath": "/home/matheus/Área de trabalho/asp-dot-net/finance-web-infra/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/matheus/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/matheus/Área de trabalho/asp-dot-net/finance-web-domain/finance-web-domain.csproj": {
+                "projectPath": "/home/matheus/Área de trabalho/asp-dot-net/finance-web-domain/finance-web-domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/matheus/.dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/matheus/Área de trabalho/asp-dot-net/finance-web-service/finance-web-service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/matheus/Área de trabalho/asp-dot-net/finance-web-service/finance-web-service.csproj",
+        "projectName": "finance-web-service",
+        "projectPath": "/home/matheus/Área de trabalho/asp-dot-net/finance-web-service/finance-web-service.csproj",
+        "packagesPath": "/home/matheus/.nuget/packages/",
+        "outputPath": "/home/matheus/Área de trabalho/asp-dot-net/finance-web-service/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/matheus/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/matheus/Área de trabalho/asp-dot-net/finance-web-domain/finance-web-domain.csproj": {
+                "projectPath": "/home/matheus/Área de trabalho/asp-dot-net/finance-web-domain/finance-web-domain.csproj"
+              },
+              "/home/matheus/Área de trabalho/asp-dot-net/finance-web-infra/finance-web-infra.csproj": {
+                "projectPath": "/home/matheus/Área de trabalho/asp-dot-net/finance-web-infra/finance-web-infra.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/matheus/.dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/matheus/Área de trabalho/asp-dot-net/finance-web/finance-web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/matheus/Área de trabalho/asp-dot-net/finance-web/finance-web.csproj",
+        "projectName": "finance-web",
+        "projectPath": "/home/matheus/Área de trabalho/asp-dot-net/finance-web/finance-web.csproj",
+        "packagesPath": "/home/matheus/.nuget/packages/",
+        "outputPath": "/home/matheus/Área de trabalho/asp-dot-net/finance-web/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/matheus/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/matheus/Área de trabalho/asp-dot-net/finance-web-domain/finance-web-domain.csproj": {
+                "projectPath": "/home/matheus/Área de trabalho/asp-dot-net/finance-web-domain/finance-web-domain.csproj"
+              },
+              "/home/matheus/Área de trabalho/asp-dot-net/finance-web-infra/finance-web-infra.csproj": {
+                "projectPath": "/home/matheus/Área de trabalho/asp-dot-net/finance-web-infra/finance-web-infra.csproj"
+              },
+              "/home/matheus/Área de trabalho/asp-dot-net/finance-web-service/finance-web-service.csproj": {
+                "projectPath": "/home/matheus/Área de trabalho/asp-dot-net/finance-web-service/finance-web-service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

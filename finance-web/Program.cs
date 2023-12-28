@@ -1,7 +1,11 @@
+using finance_web_infra;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddDbContext<FinanceDbContext>();
 
 var app = builder.Build();
 

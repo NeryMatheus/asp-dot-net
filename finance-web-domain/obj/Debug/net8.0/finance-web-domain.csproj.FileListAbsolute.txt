@@ -1,0 +1,12 @@
+/home/matheus/Área de trabalho/asp-dot-net/finance-web-domain/bin/Debug/net8.0/finance-web-domain.deps.json
+/home/matheus/Área de trabalho/asp-dot-net/finance-web-domain/bin/Debug/net8.0/finance-web-domain.dll
+/home/matheus/Área de trabalho/asp-dot-net/finance-web-domain/bin/Debug/net8.0/finance-web-domain.pdb
+/home/matheus/Área de trabalho/asp-dot-net/finance-web-domain/obj/Debug/net8.0/finance-web-domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/matheus/Área de trabalho/asp-dot-net/finance-web-domain/obj/Debug/net8.0/finance-web-domain.AssemblyInfoInputs.cache
+/home/matheus/Área de trabalho/asp-dot-net/finance-web-domain/obj/Debug/net8.0/finance-web-domain.AssemblyInfo.cs
+/home/matheus/Área de trabalho/asp-dot-net/finance-web-domain/obj/Debug/net8.0/finance-web-domain.csproj.CoreCompileInputs.cache
+/home/matheus/Área de trabalho/asp-dot-net/finance-web-domain/obj/Debug/net8.0/finance-web-domain.sourcelink.json
+/home/matheus/Área de trabalho/asp-dot-net/finance-web-domain/obj/Debug/net8.0/finance-web-domain.dll
+/home/matheus/Área de trabalho/asp-dot-net/finance-web-domain/obj/Debug/net8.0/refint/finance-web-domain.dll
+/home/matheus/Área de trabalho/asp-dot-net/finance-web-domain/obj/Debug/net8.0/finance-web-domain.pdb
+/home/matheus/Área de trabalho/asp-dot-net/finance-web-domain/obj/Debug/net8.0/ref/finance-web-domain.dll

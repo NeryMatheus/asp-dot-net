@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>finance_web_service</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\finance-web-domain\finance-web-domain.csproj" />
+    <ProjectReference Include="..\finance-web-infra\finance-web-infra.csproj" />
+  </ItemGroup>
+
+</Project>

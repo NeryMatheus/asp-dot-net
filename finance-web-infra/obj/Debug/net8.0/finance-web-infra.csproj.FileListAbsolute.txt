@@ -1,0 +1,16 @@
+/home/matheus/Área de trabalho/asp-dot-net/finance-web-infra/bin/Debug/net8.0/finance-web-infra.deps.json
+/home/matheus/Área de trabalho/asp-dot-net/finance-web-infra/bin/Debug/net8.0/finance-web-infra.dll
+/home/matheus/Área de trabalho/asp-dot-net/finance-web-infra/bin/Debug/net8.0/finance-web-infra.pdb
+/home/matheus/Área de trabalho/asp-dot-net/finance-web-infra/obj/Debug/net8.0/finance-web-infra.GeneratedMSBuildEditorConfig.editorconfig
+/home/matheus/Área de trabalho/asp-dot-net/finance-web-infra/obj/Debug/net8.0/finance-web-infra.AssemblyInfoInputs.cache
+/home/matheus/Área de trabalho/asp-dot-net/finance-web-infra/obj/Debug/net8.0/finance-web-infra.AssemblyInfo.cs
+/home/matheus/Área de trabalho/asp-dot-net/finance-web-infra/obj/Debug/net8.0/finance-web-infra.csproj.CoreCompileInputs.cache
+/home/matheus/Área de trabalho/asp-dot-net/finance-web-infra/obj/Debug/net8.0/finance-web-infra.sourcelink.json
+/home/matheus/Área de trabalho/asp-dot-net/finance-web-infra/obj/Debug/net8.0/finance-web-infra.dll
+/home/matheus/Área de trabalho/asp-dot-net/finance-web-infra/obj/Debug/net8.0/refint/finance-web-infra.dll
+/home/matheus/Área de trabalho/asp-dot-net/finance-web-infra/obj/Debug/net8.0/finance-web-infra.pdb
+/home/matheus/Área de trabalho/asp-dot-net/finance-web-infra/obj/Debug/net8.0/ref/finance-web-infra.dll
+/home/matheus/Área de trabalho/asp-dot-net/finance-web-infra/bin/Debug/net8.0/finance-web-domain.dll
+/home/matheus/Área de trabalho/asp-dot-net/finance-web-infra/bin/Debug/net8.0/finance-web-domain.pdb
+/home/matheus/Área de trabalho/asp-dot-net/finance-web-infra/obj/Debug/net8.0/finance-web-infra.csproj.AssemblyReference.cache
+/home/matheus/Área de trabalho/asp-dot-net/finance-web-infra/obj/Debug/net8.0/finance-web-infra.csproj.CopyComplete
